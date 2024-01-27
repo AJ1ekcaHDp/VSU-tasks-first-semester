@@ -13,4 +13,4 @@ CP="%С_HOME%/repository/com/intellij/forms_rt/7.0.3/forms_rt-7.0.3.jar;
     %С_HOME%\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar"
 
 
-java -classpath "$CD/out/production/task11:$CP" task9.Program "$@"
+java -classpath "$CD/out/production/task11:$CP" task11.Program "$@"
