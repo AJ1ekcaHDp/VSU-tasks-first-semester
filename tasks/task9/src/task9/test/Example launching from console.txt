@@ -1,0 +1,1 @@
+./list-cmd-args -c -n 3 -i ./src/task9/test/in_1.txt -o ./out.txt

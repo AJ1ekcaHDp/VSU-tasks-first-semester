@@ -1,0 +1,1 @@
+java -cp C:\...\task8\out\production\task8 task8.Program -c -n 2 --input-file= .\test\Test1.txt --output-file= .\output.txt

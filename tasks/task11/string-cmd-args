@@ -1,0 +1,16 @@
+#!/bin/bash
+
+CD="$(dirname "$(readlink -f "$0")")"  # "
+
+
+С_HOME=C:/.../
+CP="%С_HOME%/repository/com/intellij/forms_rt/7.0.3/forms_rt-7.0.3.jar;
+    %С_HOME%\repository\asm\asm-commons\3.0\asm-commons-3.0.jar;
+    %С_HOME%\repository\asm\asm-tree\3.0\asm-tree-3.0.jar;
+    %С_HOME%\repository\asm\asm\3.0\asm-3.0.jar;
+    %С_HOME%\repository\com\jgoodies\forms\1.1-preview\forms-1.1-preview.jar;
+    %С_HOME%\repository\jdom\jdom\1.0\jdom-1.0.jar;
+    %С_HOME%\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar"
+
+
+java -classpath "$CD/out/production/task11:$CP" task9.Program "$@"

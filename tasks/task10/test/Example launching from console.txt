@@ -1,0 +1,1 @@
+java -cp C:\...\task10\out\production\task10 task10.Program --input-file= .\test\Test1.txt
